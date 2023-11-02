@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamura Mysite</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Kiwi+Maru:wght@400;500&family=M+PLUS+1p:wght@400;500;700&family=Noto+Sans+JP&family=Noto+Serif+JP:wght@400;600&family=Sawarabi+Mincho&family=Shippori+Mincho:wght@400;600;700&family=Tsukimi+Rounded:wght@500&family=Yomogi&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+
+        <!-- <div>
+            <h1>TAMURA</h1>
+        </div> -->
+
+        <nav class="header_nav">
+            <div class="header_main">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../profile/profile.html">Profile</a>
+                        <div class="nav_hover">
+                            <ul>
+                                <li><a href="../profile/profile.html">About</a></li>
+                                <li><a href="../profile/profile.html#profile">Profile</a></li>
+                                <li><a href="../profile/plofile- vision/vision.html">Vision</a> </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="../portfolio/portfolio.html">Portfolio</a></li>
+                    <li><a href="../contact/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="header_dummy"></div>
+
+
+    <main>
+
+        <section>
+            <h2>お問い合わせはこちらから</h2>
+            <div class="form">
+                <p></p>
+                <form action="form.php" metod="post">
+                    <ul>
+                        <li>
+                            <label for="name">お名前</label><br>
+                            <input type="text" id="name" placeholder="例：田村 博幸">
+                        </li>
+                        <li>
+                            <label for="mail">ご連絡先(任意)</label><br>
+                            <input type="text" id="mail" placeholder="例：email@gmail.com">
+                        </li>
+                        <li>
+                            <label for="title">件名</label><br>
+                            <input type="text" id="title" placeholder="例：webページ制作見積依頼">
+                        </li>
+                        <li>
+                            <label for="name">お問い合わせ内容</label><br>
+                            <textarea name="" id="textarea" cols="30" rows="10" placeholder="ここにテキストを入力"></textarea>
+
+                        </li>
+                    </ul>
+
+                    <div class="submit_button"><button><a href="../index.html">送信</a></button></div>
+                    <!-- <input class="submit_button" type="submit" value="送信する"> -->
+                </form>
+
+                <label for="name"></label>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <small>Copyright &copy; 2023 Hiroyuki Tamura All Rights Reserved.</small>
+    </footer>
+</body>
+
+</html>
